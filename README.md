@@ -14,10 +14,11 @@ This project was generated from the Momentum Django project template. This templ
 In an empty directory, run:
 
 ```
+rm Pipfile Pipfile.lock
 django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip <your_project_name> .
-cp <your_project_name>/.env.sample <your_project_name>/.env
 pipenv install
+cp <your_project_name>/.env.sample <your_project_name>/.env
 ./manage.py migrate
 ```
 
-Remember to change `<your_project_name>` to your actual project name.
+Remember to change `<your_project_name>` to your actual project name. We remove `Pipfile` and `Pipfile.lock` at the beginning because django-admin will not overwrite them with the new ones from our template.
