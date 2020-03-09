@@ -16,6 +16,7 @@ In an empty directory, run:
 ```
 pipenv --three
 pipenv install django
+pipenv shell
 rm Pipfile Pipfile.lock
 django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip <your_project_name> .
 pipenv install
