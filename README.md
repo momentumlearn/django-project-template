@@ -14,6 +14,8 @@ This project was generated from the Momentum Django project template. This templ
 In an empty directory, run:
 
 ```
+pipenv --three
+pipenv install django
 rm Pipfile Pipfile.lock
 django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip <your_project_name> .
 pipenv install
