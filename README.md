@@ -17,6 +17,7 @@ In an empty directory, run:
 django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=pyproject.toml <your_project_name> .
 poetry install
 cp <your_project_name>/.env.sample <your_project_name>/.env
+poetry shell
 ./manage.py migrate
 ```
 
