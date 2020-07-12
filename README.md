@@ -14,11 +14,10 @@ This project was generated from the Momentum Django project template. This templ
 In an empty directory, run:
 
 ```
-django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=pyproject.toml <your_project_name> .
+django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=pyproject.toml --name=.pre-commit-config.yaml project .
 poetry install
-cp <your_project_name>/.env.sample <your_project_name>/.env
-poetry shell
+cp project/.env.sample project/.env
 ./manage.py migrate
 ```
 
-Remember to change `<your_project_name>` to your actual project name.
+If you want to use another directory for your project directory, replace `project` above with the name of your directory.
