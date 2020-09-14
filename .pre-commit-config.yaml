@@ -1,5 +1,0 @@
-- repo: https://github.com/momentumlearn/pre-commit-hooks.git
-  rev: main
-  hooks:
-    - id: check-poetry
-    - id: export-poetry
