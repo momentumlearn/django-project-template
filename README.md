@@ -14,8 +14,8 @@ This project was generated from the Momentum Django project template. This templ
 In an empty directory, run:
 
 ```
-django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=pyproject.toml --name=.pre-commit-config.yaml project .
-poetry install
+django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=Pipfile project .
+pipenv install
 cp project/.env.sample project/.env
 ./manage.py migrate
 ```
