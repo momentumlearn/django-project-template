@@ -7,7 +7,7 @@ This project was generated from the Momentum Django project template. This templ
 - There is a custom user model defined in `users.models.User`.
 - There is a `templates/` and a `static/` directory at the top level, both of which are set up to be used.
 - A `.gitignore` file is provided.
-- [Poetry](https://python-poetry.org/) is used to manage dependencies.
+- Pipenv is used to manage dependencies.
 
 ## Using this template
 
