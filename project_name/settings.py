@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     # Project-specific
-    'users',
+    'core',
 ]
 
 MIDDLEWARE = [
