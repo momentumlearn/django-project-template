@@ -15,9 +15,11 @@ This project was generated from the Momentum Django project template. This templ
 In an empty directory, run:
 
 ```
-django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/master.zip --name=Pipfile project .
+django-admin startproject --template=https://github.com/momentumlearn/django-project-template/archive/main.zip --name=Pipfile project .
 pipenv install
+pipenv shell
 cp project/.env.sample project/.env
+./manage.py makemigrations
 ./manage.py migrate
 ```
 
